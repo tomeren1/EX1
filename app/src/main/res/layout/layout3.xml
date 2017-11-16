@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/intro3" />
+
+    <TableLayout
+        android:layout_width="320dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="94dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+
+        <TableRow
+            android:layout_width="320dp"
+            android:layout_height="60dp"
+            >
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="160dp"
+                android:layout_height="60dp"
+                android:text="@string/cell1"
+                android:layout_span="2"
+                android:background="@drawable/border2"/>
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="160dp"
+                android:layout_height="60dp"
+                android:text="@string/cell2"
+                android:layout_span="2"
+                android:background="@drawable/border2"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="320dp"
+            android:layout_height="60dp"
+
+            >
+
+
+            <TextView
+                android:id="@+id/tv3"
+                android:layout_width="80dp"
+                android:layout_height="60dp"
+                android:text="@string/cell3"
+                android:layout_span="1"
+                android:background="@drawable/border2"/>
+
+            <TextView
+                android:id="@+id/tv4"
+                android:layout_width="80dp"
+                android:layout_height="60dp"
+                android:text="@string/cell4"
+                android:layout_span="1"
+                android:background="@drawable/border2"/>
+
+            <TextView
+                android:id="@+id/tv5"
+                android:layout_width="80dp"
+                android:layout_height="60dp"
+                android:text="@string/cell5"
+                android:layout_span="1"
+                android:background="@drawable/border2"/>
+
+            <TextView
+                android:id="@+id/tv6"
+                android:layout_width="80dp"
+                android:layout_height="60dp"
+                android:text="@string/cell6"
+                android:layout_span="1"
+                android:background="@drawable/border2"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="320dp"
+            android:layout_height="60dp"
+            >
+
+
+            <TextView
+                android:id="@+id/tv7"
+                android:layout_width="80dp"
+                android:layout_height="60dp"
+                android:text="@string/cell7"
+                android:layout_span="1"
+                android:background="@drawable/border2"/>
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="80dp"
+                android:layout_height="60dp"
+                android:text="@string/cell8"
+                android:layout_span="1"
+                android:background="@drawable/border2"/>
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="80dp"
+                android:layout_height="60dp"
+                android:text="@string/cell9"
+                android:layout_span="2"
+                android:background="@drawable/border2"/>
+        </TableRow>
+
+
+
+    </TableLayout>
+
+
+</RelativeLayout>
